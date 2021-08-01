@@ -15,6 +15,7 @@ eureka:
     eviction-interval-timer-in-ms: 1000
     use-read-only-response-cache: false
 
+
 ---
 spring:
   profiles: 7900
