@@ -1,0 +1,9 @@
+server:
+  port: 8082
+
+eureka:
+  client:
+    enable: false
+spring:
+  application:
+    name: service-verification-code

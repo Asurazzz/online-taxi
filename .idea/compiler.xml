@@ -8,8 +8,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="internal-common" />
+        <module name="service-verification-code" />
         <module name="cloud-eureka" />
         <module name="api-passenger" />
+        <module name="service-sms" />
         <module name="demo" />
       </profile>
     </annotationProcessing>
@@ -21,6 +23,8 @@
       <module name="cloud-eureka" options="-parameters" />
       <module name="demo" options="-parameters" />
       <module name="internal-common" options="-parameters" />
+      <module name="service-sms" options="-parameters" />
+      <module name="service-verification-code" options="-parameters" />
     </option>
   </component>
 </project>
