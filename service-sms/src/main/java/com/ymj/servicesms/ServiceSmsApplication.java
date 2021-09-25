@@ -15,6 +15,6 @@ public class ServiceSmsApplication {
     @GetMapping
     public String test() {
         System.out.println("aaaa");
-        return "aaa";
+        return "aaab";
     }
 }
